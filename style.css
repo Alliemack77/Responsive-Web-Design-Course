@@ -27,7 +27,7 @@ body {
 
   width: 80%;
   margin: 0 auto;
-
+  /*height: 300px;*/ /* Try to avoid setting heights, constraining elements restricts the naural responsivness of the web. Try using padding instead. */
   padding: 2em;
   
 }
@@ -35,4 +35,5 @@ body {
 .intro-content {
   background: aqua;
   width: 50%;
+  margin: 0 auto;
 }
