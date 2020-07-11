@@ -25,15 +25,22 @@ body {
   background: #23424a;
   color: white;
 
-  width: 80%;
+  width: 80%; /* The parent. All children will take their widths from here. 
+              This container itself will be 80% of the viewport.*/
+  max-width: 750px; /* Setting a max-width will limit the space you are working in
+              making the reading experiance more plesant.*/
+              
   margin: 0 auto;
-  /*height: 300px;*/ /* Try to avoid setting heights, constraining elements restricts the naural responsivness of the web. Try using padding instead. */
-  padding: 2em;
+  /*height: 300px;*/ /* Try to avoid setting heights. 
+            Constraining elements restricts the naural responsivness of the web.
+            Try using padding instead. */
+  padding: 1em;
   
 }
 
 .intro-content {
   background: aqua;
-  width: 50%;
+  width: 50%; /* Avoid setting fixed widths. 
+              Constraining the web only causes problems. Try setting %'s */
   margin: 0 auto;
 }
