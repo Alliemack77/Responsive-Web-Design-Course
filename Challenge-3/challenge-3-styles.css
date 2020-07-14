@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+    background: #4E0250;
+    color: white;
+    padding: 70px 0;
+}
+
+.hero__container {
+    width: 60%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero__text {
+    width: 75%;
+
+}
+
+h1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 2.5rem;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: #6EF9F5;
+    padding: .5em 2em;
+    border-radius: 30px;
+}
+
+.hero p {
+    margin-bottom: 2.5em;
+}
