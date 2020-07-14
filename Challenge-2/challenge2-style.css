@@ -24,7 +24,8 @@ body {
 }
 
 .container-1 {
-  border: solid red 2px;
+  
+  background: seagreen;
   /* width: 80%; Not setting a width will make the container fill the entire width of the viewport. */ 
   /* max-width: 750px; Not setting a width will make the container fill the entire width of the viewport.  */ 
   /* margin: 0 auto; No need for margins now. Especially when the body was reset above. */ 
