@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Challenge 2</title>
+    <title>Flexbox Challenge 3</title>
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="Flex-3-styles.css">
@@ -14,17 +14,26 @@
 </head>
 
 <header>
-    <div class="nav-container">
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="list__item"><a href="#" class="nav__link">Home</a></li>
-                <li class="list__item"><a href="#" class="nav__link">About</a></li>
-                <li class="list__item"><a href="#" class="nav__link">Contact</a></li>
-                <li class="list__item"><a href="#" class="nav__link">Sign In</a></li>
-                <li class="list__item"><a href="#" class="nav__link nav__link--button">Sign Up</a></li>
+
+    
+    <div class="container nav">
+        <img class="logo" src="img/logo.svg" alt="Creating Responsive Layouts Logo">
+
+        <nav class="nav-menu">
+            <ul class="nav__list--primary">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
             </ul>
+
+            <ul class="nav__list--secondary">
+                <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+                <li class="nav__item"><a href="#" class="nav__link nav__link--button">Sign Up</a></li>
+            </ul>
+    
         </nav>
     </div>
+    
 
 </header>  
 
@@ -39,7 +48,7 @@
             </div>
 
             <div>
-                <img src="https://source.unsplash.com/random/350x350" alt="random images from unsplash.com">
+                <img class="hero__img" src="https://source.unsplash.com/random/350x350" alt="random images from unsplash.com">
             </div>
         </div>
     </section>
